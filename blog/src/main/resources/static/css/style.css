@@ -1,4 +1,22 @@
 body {
 	font-weight: 10000;
-	color: #3544ff;
+}
+#sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: red;
+}
+#sidebar-menu {
+	padding-left: 35%;
+	padding-top: 55%;
+	list-style-type: none;
+	font-size: 120%;
+}
+#header, #content {
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
