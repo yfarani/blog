@@ -1,5 +1,9 @@
 body {
-	font-weight: 10000;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	color: #000000;
+	text-decoration: none;
 }
 #sidebar {
     position: fixed;
@@ -7,15 +11,18 @@ body {
     left: 0px;
     bottom: 0px;
     width: 200px;
-    background-color: red;
+	z-index: 1;
 }
 #sidebar-menu {
-	padding-left: 35%;
+	padding-left: 40%;
 	padding-top: 55%;
 	list-style-type: none;
-	font-size: 120%;
+	font-size: 130%;
 }
-#header, #content {
+#header {
+	font-size: 200%;
+}
+#content {
     position: relative;
     width: 100%;
     text-align: center;
